@@ -8,6 +8,15 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  z-index: 1000;
+  background-color: #fff;
+  opacity: 1;
+}
+
 nav {
   height: 59px;
   display: flex;
@@ -18,6 +27,7 @@ nav {
   left: 10%;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .nav-content {
@@ -312,4 +322,7 @@ main {
     align-items: center;
     justify-content: space-between;
   }
+}
+
+.tech-stack {
 }
