@@ -173,7 +173,8 @@ a {
   }
 }
 
-.about-container {
+.about-container,
+.techstack-container {
   background-color: #fff;
   position: relative;
   width: 80%;
@@ -324,5 +325,33 @@ main {
   }
 }
 
-.tech-stack {
+/* Styles for the tech stack page */
+
+.techstack-container h2 {
+  color: var(--Solid-Heading, #42446e);
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 61.905% */
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.techstack-container p {
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 130% */
+  margin-bottom: 60px;
+}
+
+.stack-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
 }
