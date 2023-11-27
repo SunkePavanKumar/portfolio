@@ -181,7 +181,8 @@ a {
 
 .about-container,
 .techstack-container,
-.contact-container {
+.contact-container,
+.project-container {
   background-color: #fff;
   position: relative;
   width: 80%;
@@ -341,7 +342,8 @@ main {
 
 /* Styles for the tech stack page */
 
-.techstack-container h2 {
+.techstack-container h2,
+.project-container h2 {
   color: var(--Solid-Heading, #42446e);
   font-family: Poppins;
   font-size: 42px;
@@ -352,7 +354,8 @@ main {
   margin-bottom: 20px;
 }
 
-.techstack-container p {
+.techstack-container p,
+.project-container p {
   color: var(--dark-content, #666);
   font-family: Poppins;
   font-size: 20px;
@@ -372,7 +375,8 @@ main {
 
 @media only screen and (max-width: 990px) {
   .techstack-container,
-  .contact-container {
+  .contact-container,
+  .projects {
     min-width: 700px;
   }
 }
@@ -427,4 +431,91 @@ main {
   top: 0;
   align-items: center;
   justify-content: space-between;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project1 {
+  width: 320px;
+  height: 645px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+.project1 img {
+  width: 320px;
+  height: 260px;
+  flex-shrink: 0;
+  border-radius: 20px 20px 0px 0px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.project-content {
+  width: 90%;
+  position: relative;
+  left: 5%;
+  right: 5%;
+}
+
+.project1 h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 92.857% */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project1 p {
+  color: var(--dark-content, #666);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 144.444% */
+  margin-bottom: 20px;
+}
+
+.project1 h2 {
+  color: var(--Solid-Heading, #42446e);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 0;
+}
+
+.code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link img,
+.git img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.link a,
+.git a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  text-decoration-line: underline;
 }
