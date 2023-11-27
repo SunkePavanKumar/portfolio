@@ -174,7 +174,8 @@ a {
 }
 
 .about-container,
-.techstack-container {
+.techstack-container,
+.contact-container {
   background-color: #fff;
   position: relative;
   width: 80%;
@@ -360,4 +361,41 @@ main {
   .techstack-container {
     min-width: 700px;
   }
+}
+
+.contact-container {
+  align-items: center;
+  z-index: 10;
+}
+
+.contact-container h2 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+
+  /* Heading / H2 Header */
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+}
+
+.contact-container p {
+  text-align: center;
+
+  /* Heading / H2 Header */
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
