@@ -187,7 +187,7 @@ a {
   width: 80%;
   top: 60px;
   right: 10%;
-  height: 500px;
+  height: auto;
   left: 10%;
 }
 
@@ -288,12 +288,19 @@ a {
   margin-bottom: 40px;
 }
 
+.tech-stack {
+  position: relative;
+}
+
 .end {
   height: 59px;
   display: flex;
   position: relative;
   width: 80%;
-  top: 540px;
+  /* top: 540px; */
+  top: 50px;
+  padding: 30px;
+  bottom: 0;
   right: 10%;
   left: 10%;
   align-items: center;
