@@ -373,6 +373,13 @@ main {
   gap: 50px;
 }
 
+.stack-icons img {
+  width: 180px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* mix-blend-mode: color-burn; */
+}
+
 @media only screen and (max-width: 990px) {
   .techstack-container,
   .contact-container,
