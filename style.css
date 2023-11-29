@@ -373,11 +373,15 @@ main {
   gap: 50px;
 }
 
-.stack-icons img {
-  width: 180px;
+.stack-icons a {
   aspect-ratio: 3/2;
   object-fit: contain;
   /* mix-blend-mode: color-burn; */
+}
+.stack-icons img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  width: 180px;
 }
 
 @media only screen and (max-width: 990px) {
