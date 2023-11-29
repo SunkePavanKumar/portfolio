@@ -384,6 +384,14 @@ main {
   width: 180px;
 }
 
+.stack-icons img:hover,
+.stack-icons svg:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
 @media only screen and (max-width: 990px) {
   .techstack-container,
   .contact-container,
